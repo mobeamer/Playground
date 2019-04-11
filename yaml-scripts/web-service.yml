@@ -1,0 +1,10 @@
+steps:
+- task: AzureResourceGroupDeployment@2
+  displayName: 'Azure Deployment:Create Or Update Resource Group action on playground-resource-group'
+  inputs:
+    azureSubscription: 'Pay-As-You-Go (a2404aab-c4cb-4542-afe9-a3a97667dc81)'
+    resourceGroupName: 'playground-resource-group'
+    location: 'East US 2'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/mobeamer/Playground/master/playground-web-app.arm'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/mobeamer/Playground/master/playground-web-app-params.arm'

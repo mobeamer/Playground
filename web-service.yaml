@@ -1,0 +1,7 @@
+- task: AzureRmWebAppDeployment@3
+  inputs:
+    azureSubscription: '2404aab-c4cb-4542-afe9-a3a97667dc81'
+    WebAppName: 'test-mb-hello-world'
+    Package: '$(System.DefaultWorkingDirectory)'
+    GenerateWebConfig: true
+    WebConfigParameters: '-Handler iisnode -NodeStartFile server.js -appType node'

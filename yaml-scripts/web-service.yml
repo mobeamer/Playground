@@ -6,5 +6,5 @@ steps:
     resourceGroupName: 'playground-resource-group'
     location: 'East US 2'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/mobeamer/Playground/master/playground-web-app.arm'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/mobeamer/Playground/master/playground-web-app-params.arm'
+    csmFileLink: 'https://raw.githubusercontent.com/mobeamer/Playground/master/arm-scripts/playground-web-app.arm'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/mobeamer/Playground/master/arm-scripts/playground-web-app-params.arm'

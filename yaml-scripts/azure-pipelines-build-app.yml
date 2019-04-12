@@ -12,12 +12,12 @@ steps:
   displayName: 'npm install'
   inputs:
     command: install
-    
+
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    archiveType: 'zip'
     includeRootFolder: false
-
+    
 - task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)'

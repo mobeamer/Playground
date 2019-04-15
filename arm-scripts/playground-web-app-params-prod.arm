@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "sites_playground_web_app_name": {
-            "value": "playground-web-app-dev"
+            "value": "playground-web-app"
         },
         "serverfarms_playground_app_service_name": {
-            "value": "playground-app-service-dev"
+            "value": "playground-app-service"
         }
     }
 }
